@@ -1,0 +1,74 @@
+/*Small Screen */
+@media screen and (max-width: 400px) {
+
+
+#header h1 {
+    font-size: 35px;
+    text-align: center;
+    color: orange;
+}
+
+}
+
+/*Normal CSS*/
+@media screen and (min-width: 1200px) {
+
+
+#header {
+	padding-left: 70px;
+}
+
+#header h1{
+	font-size: 90px;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: black;
+    border-color: black;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: pink;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: pink;
+}
+
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: red;
+    border-bottom-color: red;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: blue;
+    border-bottom-color: blue;
+}
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: orange;
+    border-bottom-color: orange;
+}
+
+.navbar-collapse.collapse {
+	text-align: center;
+}
+
+.navbar-nav {
+	display: inline-block;
+	float: none;
+	margin: 0;
+}

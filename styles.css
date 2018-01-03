@@ -8,30 +8,42 @@
     color: orange;
 }
 
-}
+
+} /*End of Small Section*/
 
 /*Normal CSS*/
 @media screen and (min-width: 1200px) {
+
+body {
+	font-family: sans-serif;
+}
 
 
 #header {
 	padding-left: 70px;
 }
 
+#headerImg {
+    height: 200px;
+    width: 200px;
+}
+
 #header h1{
-	font-size: 90px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 70px;
+	color: teal;
 }
 
 /* navbar */
 .navbar-default {
-    background-color: black;
+    background-color: gray;
     border-color: black;
     font-size: 18px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: pink;
+    color: teal;
 }
 
 /* Link */
@@ -41,13 +53,13 @@
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: pink;
+    color: teal;
 }
 
 /* Caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: red;
-    border-bottom-color: red;
+    border-top-color: teal;
+    border-bottom-color: teal;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
@@ -59,8 +71,8 @@
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: orange;
-    border-bottom-color: orange;
+    border-top-color: teal;
+    border-bottom-color: teal;
 }
 
 .navbar-collapse.collapse {
@@ -72,3 +84,36 @@
 	float: none;
 	margin: 0;
 }
+
+#footer {
+	background: grey;
+}
+
+#mainSlider img {
+	margin: auto;
+	max-height: 400px;
+	width: 70%;
+}
+
+#mainSlider p {
+	color: black
+}
+
+.carousel-indicators li {
+	background-color: black;
+}
+
+.carousel-indicators .active {
+	background-color: grey;
+}
+
+.carousel-inner .item img {
+	margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	color: grey;
+}
+
+} /*End of Large Screen*/
